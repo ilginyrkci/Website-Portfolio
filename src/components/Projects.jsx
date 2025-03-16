@@ -40,7 +40,7 @@ export default function Projects() {
     },
     {
       title: "Figma Tasarımları",
-      url: "https://figma-sable-pi.vercel.app/",
+      url: "https://figmaa-neon.vercel.app/",
     },
     {
       title: "Favori Filmler ",
