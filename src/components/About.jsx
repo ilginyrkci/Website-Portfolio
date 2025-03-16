@@ -16,7 +16,7 @@ export default function About() {
       >
         <h2 className="text-4xl font-semibold text-center color3">Hakkımda</h2>
         <p className="mt-4 text-lg color1">
-          Merhaba! Ben Ilgın Habibe, 17 yaşında, Bilişim Teknolojileri alanında lise eğitimi almış ve yazılım dünyasına tutkuyla bağlı bir Junior Front-End Developer'ım.
+          Merhaba! Ben Ilgın Habibe, 18 yaşında, Bilişim Teknolojileri alanında lise eğitimi almış ve yazılım dünyasına tutkuyla bağlı bir Junior Front-End Developer'ım.
           Her yıl farklı bir programlama dili öğrenerek kendimi geliştirdim ve teknolojinin sunduğu imkanları en verimli şekilde kullanmayı hedefliyorum.
           Bilişim Teknolojileri eğitimim boyunca Python, C#, C++, PHP, ASP.NET, Java, JavaScript, HTML ve CSS gibi birçok programlama dilinde bilgi ve tecrübe kazandım.
           Hem front-end hem back-end geliştirme hakkında güçlü bir temelim var.
