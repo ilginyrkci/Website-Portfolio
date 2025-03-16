@@ -10,7 +10,7 @@ export default function Skills() {
     >
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-semibold">Yeteneklerim</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8">
           {[
             { title: "Programlama Dilleri", skills: "Python, C#, C++, PHP, Java, JavaScript" },
             { title: "Web Teknolojileri", skills: "HTML5, CSS3, JavaScript" },

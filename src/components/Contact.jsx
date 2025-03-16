@@ -6,7 +6,7 @@ export default function Contact() {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
-      className="py-20 bg-gray-900 text-white flex justify-center items-center min-h-screen relative"
+      className="py-20 bg-gray-900 text-white flex justify-center items-center min-h-screen relative px-6 sm:px-12"
       style={{
         backgroundImage: "url('/images/contact-bg.jpg')",
         backgroundSize: "cover",
@@ -14,8 +14,8 @@ export default function Contact() {
       }}
     >
       <div className="bg-gray-800 bg-opacity-90 p-8 rounded-lg shadow-xl max-w-2xl w-full text-center">
-        <h2 className="text-4xl font-semibold">İletişim</h2>
-        <p className="mt-4 text-lg">Benimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:</p>
+        <h2 className="text-3xl sm:text-4xl font-semibold">İletişim</h2>
+        <p className="mt-4 text-lg sm:text-xl">Benimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:</p>
         <div className="mt-6 space-y-4">
           <p className="text-xl">📞 +05527072853</p>
           <p className="text-xl">📧 yilginhabibe@gmail.com</p>

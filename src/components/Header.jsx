@@ -10,8 +10,8 @@ export default function Header({ setActiveSection }) {
     >
       <div className="container mx-auto flex justify-between items-center p-4">
         <h1 className="text-3xl font-bold color3">Ilgın Habibe Yürekçi</h1>
-        <nav className="space-x-6 flex">
-          {[
+        <nav className="space-x-6 flex flex-wrap justify-center md:justify-end">
+          {[ 
             { section: "home", label: "Ana Sayfa" },
             { section: "about", label: "Hakkımda" },
             { section: "skills", label: "Yetenekler" },
@@ -21,7 +21,7 @@ export default function Header({ setActiveSection }) {
             <motion.button
               key={section}
               onClick={() => setActiveSection(section)}
-              className="color1 px-3 py-2 rounded-lg font-semibold transition-all"
+              className="color1 px-3 py-2 rounded-lg font-semibold transition-all mb-2 md:mb-0"
               whileHover={{ y: -5, scale: 1.1, color: "#FFD700" }} // Hover animasyonu
               whileTap={{ scale: 0.9 }} // Butona tıklanınca küçülme efekti
             >
